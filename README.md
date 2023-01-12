@@ -23,7 +23,7 @@ The Square class should be able to access the Rectangle class methods but should
 Additionally, the set_width and set_height methods on the Square class should set both the width and height.
 Usage example
 
-rect = shape_calculator.Rectangle(10, 5)
+"""rect = shape_calculator.Rectangle(10, 5)
 print(rect.get_area())
 rect.set_height(3)
 print(rect.get_perimeter())
@@ -39,11 +39,11 @@ print(sq.get_picture())
 
 rect.set_height(8)
 rect.set_width(16)
-print(rect.get_amount_inside(sq))
+print(rect.get_amount_inside(sq))"""
 
 That code should return:
 
-50
+"""50
 26
 Rectangle(width=10, height=3)
 **********
@@ -58,7 +58,7 @@ Square(side=4)
 ****
 ****
 
-8
+8"""
 
 The unit tests for this project are in test_module.py.
 Development
