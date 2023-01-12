@@ -21,46 +21,4 @@ The Square class should be a subclass of Rectangle. When a Square object is crea
 The Square class should be able to access the Rectangle class methods but should also contain a set_side method. If an instance of a Square is represented as a string, it should look like: Square(side=9)
 
 Additionally, the set_width and set_height methods on the Square class should set both the width and height.
-Usage example
 
-"""rect = shape_calculator.Rectangle(10, 5)
-print(rect.get_area())
-rect.set_height(3)
-print(rect.get_perimeter())
-print(rect)
-print(rect.get_picture())
-
-sq = shape_calculator.Square(9)
-print(sq.get_area())
-sq.set_side(4)
-print(sq.get_diagonal())
-print(sq)
-print(sq.get_picture())
-
-rect.set_height(8)
-rect.set_width(16)
-print(rect.get_amount_inside(sq))"""
-
-That code should return:
-
-"""50
-26
-Rectangle(width=10, height=3)
-**********
-**********
-**********
-
-81
-5.656854249492381
-Square(side=4)
-****
-****
-****
-****
-
-8"""
-
-The unit tests for this project are in test_module.py.
-Development
-
-Write your code in shape_calculator.py. For development, you can use main.py to test your shape_calculator() function. Click the "run" button and main.py will run.
